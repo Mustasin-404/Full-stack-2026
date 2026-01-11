@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<!-- Action attribute
+ used to define what action needs to be performed when a form is submitted
+ or where the form data should be sent 
+ <form action = "/action" //input element 25 types  used to create multiple form controls 
+ placeholder attributeb <input type= 
+  label element // connection text and element
+  id attribute
+  button element 
+  data is getting submitted and going to action location
+  button types 1.<button type="submit"> submit</button>
+  <button type="button"> submit</button>
+  <button type="reset"> submit</button>
+  8. button using input
+  <input type = "submit" value="click me">
+  Nmae attribute to send user id to backend used to pass information
+  9. Checkbox in html. 
+  when we pass tick in checkboxes it shows on otherwise nothing
+  the information which is passed to the url is passed in the format name = value-->
+
+
+<body>
+    <form action="/action">
+        <label for="x">User ID : </label> 
+        <!-- //Establisment of connection between for and ID// -->
+        <input type="text" id="x" placeholder="e.g John" name="User ID">
+        <br>
+        <label for="Pass">Password : </label>
+        <input type="password" id="Pass" placeholder="numeric only"><br>
+        <label for="jox">Email : </label>
+        <input type="email" id="jox" placeholder="xyz@gmail.com"><br>
+        <label for="Age">I am 18+</label>
+        <input type="checkbox" name="age" id="Age" checked/><button>Submit</button><br/>
+        <label for="Gen">Male</label>
+        <input type="radio" name="Gen" id="ox" value="Male"/><button>Submit</button><br/>
+        <label for="Gen">Female</label>
+        <input type="radio" name="Gen" id="ox" value="Female"/><button>Submit</button><br/>
+        <label for="Gen">Trans</label>
+        <input type="radio" name="Gen" id="ox" value="Trans"/><button>Submit</button><br/>
+        <button type="reset">reset</button>
+        <input type="button" value="Click me">
+        <input type="Submit">
+    </form>
+</body>
+</html> 
+<!-- //input box is sending data to this URL -->
+    <form action="https://www.google.com/search">
+     <input type="text" id="x" placeholder="Search on google" name="q">
+       <button>Search</button>
+
+    </form>
+</body>
+</html>
